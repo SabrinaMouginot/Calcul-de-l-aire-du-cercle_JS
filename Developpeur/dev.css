@@ -1,6 +1,33 @@
 body{
+    background-size: cover(url="assets/code.png");
     font-family: 'Tangerine', serif, 'Itim';
     font-size: 220%;
     margin: 0;
-    padding: 3% 6%;
+    /* padding: 3% 6%; */
+    z-index: 30;
+    font-weight: 900;
+    height: 590px;
+}
+
+.dev{ 
+    padding: 60px; /**Pour faire descendre tout le reste (texte)**/
+    background: url("../assets/background.png") no-repeat fixed 50% 50%;
+    /**J'insère l'image principale avec le background.**/
+    /** fixed permet que l'image ne bouge plus**/
+    background-size: cover; /**L'image couvre tout la largeur de la page et ne dépassera pas sur un écran plus petit par exemple.**/
+    height: 100%; /**pour agrandir l'image**/
+    z-index: 10;
+
+
+     
+}
+
+footer{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+    width: 50%;
+    text-align: left;
+    color: #142787;
+
 }
