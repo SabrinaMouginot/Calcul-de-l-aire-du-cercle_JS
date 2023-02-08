@@ -1,3 +1,6 @@
+document.write("<form action='' method='get'><label for='number'>Rayon :</label><input type='number' id='number' name='name' size='10'></form>")
+
+
 function CircleArea(r) {
     return Math.PI * (r * r);
  }
