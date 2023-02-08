@@ -4,7 +4,7 @@ function CircleArea(r) {
     return Math.PI * (r * r);
  }
 
- document.write("L'aire d'un cercle de rayon de "+r+" cm est " +CircleArea(1) +"cm2<BR>");
+ document.write("L'aire d'un cercle de rayon de "+r+" cm est " +CircleArea(r) +"cm2<BR>");
 
  document.write("<br>&nbsp;</br>");
  
