@@ -14,31 +14,31 @@ Et j'ai pensé à utilisé les medias queries pour que ce margin-top s'adaptte e
 
 @media only screen and (min-width : 1224px){
     /* Desktops et laptops: Styles pour cette Media Queries */
-.sabrina{
+.container{
     margin-top: 100px;
 }
 }
 
 @media only screen and (max-width : 1223px) and (min-width : 997px) {
-.sabrina{
+.container{
     margin-top: 125px;
 }
 }
 
 @media only screen and (max-width : 996px) and (min-width : 769px) {
-.sabrina{
+.container{
     margin-top: 200px;
 }
 }
 
 @media only screen and (max-width : 768px) and (min-width : 321px) {
-.sabrina{
+.container{
     margin-top: 400px;
 }
 }
 
 @media only screen and (max-width : 321px){
-.sabrina{
+.container{
     margin-top: 400px;
 }
 }
