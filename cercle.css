@@ -8,7 +8,6 @@ body {
     height: 90px;
 }
 
-
 /* Une partie était caché sous la barre de navigation en haut de page. 
 J'ai donc créé un margin en haut du document pour que l'ensemble puisse être vu. 
 Et j'ai pensé à utilisé les medias queries pour que ce margin-top s'adaptte en fonctionne de la taille de l'écran.*/
